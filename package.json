@@ -1,0 +1,39 @@
+{
+  "name": "simple-instagram-scraper",
+  "version": "1.0.7",
+  "description": "A simple, lightweight Instagram scraper",
+  "main": "simple-instagram-scraper.js",
+  "keywords": [
+    "automation",
+    "instagram",
+    "scraper",
+    "simple",
+    "followers",
+    "data",
+    "account",
+    "grab",
+    "information"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon simple-instagram-scraper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donmorton/instagramScraper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donmorton/instagramScraper/issues"
+  },
+  "homepage": "https://github.com/donmorton/instagramScraper#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "npm": "^5.8.0",
+    "request": "^2.85.0"
+  }
+}
